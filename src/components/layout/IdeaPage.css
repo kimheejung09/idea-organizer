@@ -1,0 +1,83 @@
+.idea-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  
+}
+
+.idea-item {
+  /* margin: 10px; */
+  width: 300px;
+  position: relative;
+  padding: 5px;
+  margin: 5px;
+}
+
+.idea-card {
+  width: 100%;
+  height: 300px;
+  position: relative;
+
+}
+.idea-image {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+  
+
+}
+.idea-content {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.idea-item h2 {
+  font-size: 14px;
+  text-align: left;
+  /* margin: 0; */
+  font-weight: 400;
+}
+
+.idea-content h3 {
+  width: 130px;
+  font-size: 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+
+.idea-content p {
+  width: 130px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 15px;
+  letter-spacing: 0;
+}
+
+.idea-item button  {
+  position: absolute;
+  top: 290px;
+  right: 10px;
+  cursor: pointer;
+  /* border: none; */
+  border-color: rgb(227, 227, 227);
+  font-size: 15px;
+  color: red;
+  background: none;
+}
+.idea-item button:hover {
+  font-weight: 600;
+}
+.idea-date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 14px;
+  font-weight: 500;
+  
+}
