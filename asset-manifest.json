@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/idea-organizer/static/css/main.1b97a676.css",
+    "main.js": "/idea-organizer/static/js/main.b8b75955.js",
+    "index.html": "/idea-organizer/index.html",
+    "main.1b97a676.css.map": "/idea-organizer/static/css/main.1b97a676.css.map",
+    "main.b8b75955.js.map": "/idea-organizer/static/js/main.b8b75955.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b97a676.css",
+    "static/js/main.b8b75955.js"
+  ]
+}
