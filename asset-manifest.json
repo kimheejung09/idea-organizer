@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/heereact/static/css/main.3211e174.css",
-    "main.js": "/heereact/static/js/main.26e6be3a.js",
-    "index.html": "/heereact/index.html",
-    "main.3211e174.css.map": "/heereact/static/css/main.3211e174.css.map",
-    "main.26e6be3a.js.map": "/heereact/static/js/main.26e6be3a.js.map"
+    "main.css": "/idea-organizer/static/css/main.3211e174.css",
+    "main.js": "/idea-organizer/static/js/main.26e6be3a.js",
+    "index.html": "/idea-organizer/index.html",
+    "main.3211e174.css.map": "/idea-organizer/static/css/main.3211e174.css.map",
+    "main.26e6be3a.js.map": "/idea-organizer/static/js/main.26e6be3a.js.map"
   },
   "entrypoints": [
     "static/css/main.3211e174.css",
