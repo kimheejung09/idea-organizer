@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+💡 Idea Organizer
+떠오른 아이디어를 기록하고 상태별로 정리할 수 있도록 구현한 React 기반 웹 애플리케이션 입니다.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 🔗 Live Demo
+ 배포 링크 : https://kimheejung09.github.io/idea-organizer/
 
-## Available Scripts
+ 🛠 Tech Stack
 
-In the project directory, you can run:
+- React
+- JavaScript (ES6+)
+- CSS
+- React Hooks (useState, useEffect, useRef)
 
-### `npm start`
+✨ 주요 기능
+- 날짜별 아이디어 자동 그룹화 (createdAt 기준)
+- 아이디어 상태 변경 가능( 드롭다운 UI)
+- 커스텀 드롭다운 UI 구현
+- 랜덤 이미지 배경 적용
+- 아이디어 삭제 기능
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+💡 구현 포인트
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+커스텀 드롭다운 구현
+- 기본 `<select>` 대신 `ul / li` 구조로 직접 구현
+- `useState`로 열림/닫힘 상태 관리
+- `useRef + useEffect`를 활용한 외부 클릭 감지 기능 구현
 
-### `npm test`
+날짜별 그룹화 로직
+- `reduce()`를 활용해 아이디어를 날짜 기준으로 그룹화
+- 조건부 렌더링으로 섹션 단위 출력
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+컴포넌트 분리 설계
+- StatusSelect 컴포넌트 분리
+- 재사용성과 유지보수성을 고려한 구조 설계
 
-### `npm run build`
+🛠 Trouble Shooting
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- `useRef is not defined` 오류 → React Hook import 누락 문제 해결
+- 드롭다운 외부 클릭 시 닫히지 않는 문제 → ref 연결 위치 수정으로 해결
