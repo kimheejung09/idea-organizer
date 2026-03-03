@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/idea-organizer/static/css/main.7e40b868.css",
-    "main.js": "/idea-organizer/static/js/main.d7fd15ac.js",
+    "main.css": "/idea-organizer/static/css/main.b1328860.css",
+    "main.js": "/idea-organizer/static/js/main.cbaf7ff1.js",
     "index.html": "/idea-organizer/index.html",
-    "main.7e40b868.css.map": "/idea-organizer/static/css/main.7e40b868.css.map",
-    "main.d7fd15ac.js.map": "/idea-organizer/static/js/main.d7fd15ac.js.map"
+    "main.b1328860.css.map": "/idea-organizer/static/css/main.b1328860.css.map",
+    "main.cbaf7ff1.js.map": "/idea-organizer/static/js/main.cbaf7ff1.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e40b868.css",
-    "static/js/main.d7fd15ac.js"
+    "static/css/main.b1328860.css",
+    "static/js/main.cbaf7ff1.js"
   ]
 }
